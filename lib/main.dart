@@ -5,9 +5,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_messageboard/register_screen.dart';
 import 'firebase_options.dart';
 import 'splash_screen.dart';
-// import 'message_boards_screen.dart';
-// import 'profile_screen.dart';
-// import 'settings_screen.dart';
+import 'message_boards_screen.dart';
+import 'profile_screen.dart';
+import 'settings_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => const SplashScreen(),
         '/login': (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
-        // '/messageBoards': (context) => MessageBoardsScreen(),
-        // '/profile': (context) => ProfileScreen(),
-        // '/settings': (context) => SettingsScreen(),
+        '/messageBoards': (context) => MessageBoardsScreen(),
+        '/profile': (context) => ProfileScreen(),
+        '/settings': (context) => SettingsScreen(),
       },
     );
   }
