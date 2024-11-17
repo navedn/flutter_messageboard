@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296612299255",
+    "project_id": "nnhw4messageboard",
+    "storage_bucket": "nnhw4messageboard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296612299255:android:59b1992fd1672ff5e52ef2",
+        "android_client_info": {
+          "package_name": "com.nen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3O3fhO_n98zobXIyILLzFI8noR76Wu-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
