@@ -150,7 +150,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ? CircularProgressIndicator()
                     : ElevatedButton(
                         onPressed: _registerUser,
-                        child: Text('Register'),
+                        child: Text('Registration Screen'),
                       ),
               ],
             ),
